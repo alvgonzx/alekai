@@ -1,0 +1,19 @@
+---
+const { type } = Astro.props;
+---
+
+{
+    type == 'primary' && (
+        <button class="mt-4 px-8 py-2 bg-[#61C82C] text-white rounded-lg font-semibold hover:bg-[#127021] transition-colors">
+            <slot />
+        </button>
+    )
+}
+
+{
+    type == 'secondary' && (
+        <button class="mt-4 px-8 py-2 bg-white text-[#61C82C] border-2 border-[#61C82C] rounded-lg font-semibold hover:bg-[#127021] hover:border-[#127021] hover:text-white transition-colors">
+            <slot />
+        </button>
+    )
+}
