@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Button from '../components/Button.astro';
 import Icon from '../components/Icon.astro';
+import Card from '../components/Card.astro';
 ---
 
 <Layout>
@@ -46,10 +47,29 @@ import Icon from '../components/Icon.astro';
             <p class="text-3xl font-bold text-center mt-4 md:mt-0 md:text-left">
                 Llega a tu <span class="text-[#127021]">máximo potencial</span>
             </p>
-			<div class="mt-4 relative overflow-hidden w-full pt-[70%] md:w-[80%] md:pt-[50%] xl:w-[70%] xl:pt-[40%]">
-				<iframe src="https://youtube.com/embed/rgfFaQnKapI" class="absolute top-0 left-0 bottom-0 right-0 w-full h-full "></iframe>
+            <div
+                class="mt-4 relative overflow-hidden w-full pt-[70%] md:w-[80%] md:pt-[50%] xl:w-[70%] xl:pt-[40%]"
+            >
+                <iframe
+                    src="https://youtube.com/embed/rgfFaQnKapI"
+                    class="absolute top-0 left-0 bottom-0 right-0 w-full h-full"
+                ></iframe>
+            </div>
+        </section>
+        <section
+            class="mt-12 md:mt-24 flex flex-col justify-center items-center mx-[10%] xl:mx-[15%]"
+        >
+            <p class="text-3xl font-bold text-center mt-4 md:mt-0 md:text-left">
+                Algunos <span class="text-[#127021]">links</span> que te pueden <span
+                    class="text-[#127021]">interesar</span
+                >
+            </p>
+			<div class="w-full flex flex-col items-center gap-6 lg:gap-0 lg:flex-row justify-between mt-4">
+				<Card image="/notion.png" alt="logo notion alekai">Plantilla de objetivos notion</Card>
+				<Card image="/forms.png" alt="logo google forms alekai">Rutinas Gym Alekai</Card>
+				<Card image="/spotify.png" alt="logo spotify alekai">Playlist Alekai</Card>
+				<Card image="/discord.png" alt="logo discord alekai">Discord Alekai</Card>
 			</div>
         </section>
-		
     </main>
 </Layout>
