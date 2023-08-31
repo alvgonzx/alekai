@@ -1,8 +1,8 @@
 ---
-const { image, alt } = Astro.props;
+const { image, alt, href } = Astro.props;
 ---
 
-<a class="flex flex-col items-center bg-[#F6F6F7] py-8 px-6 rounded-xl w-2/3 lg:w-1/5 hover:cursor-pointer hover:bg-[#d1d1d3]">
+<a class="flex flex-col items-center bg-[#F6F6F7] py-8 px-6 rounded-xl w-2/3 lg:w-1/5 hover:cursor-pointer hover:bg-[#d1d1d3]" href={href}>
     <img src={image} alt={alt} />
     <p class="mt-4"><slot /></p>
 </a>

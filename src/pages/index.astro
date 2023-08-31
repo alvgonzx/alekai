@@ -7,7 +7,9 @@ import NavIcons from '../components/NavIcons.astro';
 
 <Layout>
     <main>
-        <header class="flex flex-col md:flex-row md:justify-between mx-[4%] py-4">
+        <header
+            class="flex flex-col md:flex-row md:justify-between mx-[4%] py-4"
+        >
             <div class="flex justify-center items-center gap-2">
                 <img src="/alekai.png" alt="alekai logo" class="w-[42px]" />
                 <h1>alekai</h1>
@@ -62,16 +64,32 @@ import NavIcons from '../components/NavIcons.astro';
             <div
                 class="w-full flex flex-col items-center gap-6 lg:gap-0 lg:flex-row justify-between mt-4"
             >
-                <Card image="/notion.png" alt="logo notion alekai">
+                <Card
+                    image="/notion.png"
+                    alt="logo notion alekai"
+                    href="https://exultant-butternut-2a8.notion.site/d8bd6e7e31574641b40ee8f95c0393b9?v=17636ce1520c44538563227d925cd7d4"
+                >
                     Plantilla de objetivos notion
                 </Card>
-                <Card image="/forms.png" alt="logo google forms alekai">
+                <Card
+                    image="/forms.png"
+                    alt="logo google forms alekai"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd2hcSKPoAkpBT6vFYCrI9BAMIXvUxufcQYjjd4UQ8DUl9bXQ/viewform"
+                >
                     Rutinas Gym Alekai
                 </Card>
-                <Card image="/spotify.png" alt="logo spotify alekai">
+                <Card
+                    image="/spotify.png"
+                    alt="logo spotify alekai"
+                    href="https://spotify.link/DQdOTldXCCb"
+                >
                     Playlist Alekai
                 </Card>
-                <Card image="/discord.png" alt="logo discord alekai">
+                <Card
+                    image="/discord.png"
+                    alt="logo discord alekai"
+                    href="https://discord.gg/beJZ3tmnxZ"
+                >
                     Discord Alekai
                 </Card>
             </div>
@@ -81,7 +99,7 @@ import NavIcons from '../components/NavIcons.astro';
         >
             <p>&copy; alekai 2023</p>
             <NavIcons />
-			<img src="/alekai.png" alt="alekai logo" class="w-[42px]" />
+            <img src="/alekai.png" alt="alekai logo" class="w-[42px]" />
         </footer>
     </main>
 </Layout>
