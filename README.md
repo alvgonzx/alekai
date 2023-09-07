@@ -1,4 +1,4 @@
-# Portfolio
+# Alekai's landing page
 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Astro](https://img.shields.io/badge/astro-%23FF5D01.svg?style=for-the-badge&logo=astro&logoColor=white)
